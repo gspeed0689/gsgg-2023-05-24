@@ -1,5 +1,3 @@
 def power(x, y):
-    v =  x
-    for i in range(y):
-        v = v * x
+    v =  x ** y
     return(v)
